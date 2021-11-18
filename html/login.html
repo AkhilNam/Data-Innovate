@@ -1,0 +1,81 @@
+<html>
+    <head>
+        <title>
+            Login Page
+        </title>
+        <style>
+
+            .center{
+                text-align: Center;
+                color: gray;
+                margin: auto;
+                
+            }
+            .internal{
+    
+    
+                text-align: center
+    
+            }
+    
+            .navbar{
+                background-color: chartreuse;
+                overflow:hidden;
+                text-align: center
+            }
+    
+            .navbar a{
+                
+                color: red;
+                text-align: center
+            }
+    
+            .navbar a:hover{
+                background-color: seagreen;
+                color: black;
+            }
+            .navbar a.active {
+                background-color: #fcb5b5;
+                color: white;
+            }
+
+    
+        </style>
+    <body style = background-color:powderblue>
+        <h1 class = "center">
+            Data Innovate
+        </h1>
+    
+        
+            <!-- This is the login Div - Might need to create seperate pages-->
+    
+        <div class="navbar" id="navbar">
+            <nav>
+            <a href="home.html">Home</a>
+            <a href="medical.html">At Home Treatment</a>
+            <a href="contact.html">Connections</a>
+            <a href="about us.html">About</a>
+            <a class="active" href="login.html">Login</a>
+            <a href="sign-up.html">Sign Up</a>
+            </nav>
+        </div>
+        <div id="Login" class = "internal">
+            <form>
+                <br><br><br><br><br><br><br><br><br><br><br><br>
+                <label for = "First-Name">Username</label>
+    
+                <input type="text" name="First-Name" placeholder="username" required>
+                <br>
+                <br>
+                <label for = "pass">Password</label>
+                <input type="text" name="pass" placeholder="password" required>
+             </form>
+    
+    
+             <button>Log In</button>
+    
+        </div>
+    
+    </body>
+</head>
+</html>    
