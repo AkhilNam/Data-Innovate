@@ -19,23 +19,32 @@
             }
     
             .navbar{
-                background-color: chartreuse;
-                overflow:hidden;
-                text-align: center
-            }
-    
-            .navbar a{
-                
-                color: red;
-                text-align: center
-            }
+            background-color: black;
+            overflow:hidden;
+            text-align: center;
+
+        }
+
+        .navbar a{
+            
+            color: rgb(255, 255, 255);
+            float: center;
+            text-align: center;
+            padding: 30px, 30px;
+            text-decoration: none;
+            font-size: 17px
+
+
+        }
+
+
     
             .navbar a:hover{
                 background-color: seagreen;
                 color: black;
             }
             .navbar a.active {
-                background-color: #fcb5b5;
+                background-color:seagreen;
                 color: white;
             }
 
@@ -52,8 +61,8 @@
         <div class="navbar" id="navbar">
             <nav>
             <a href="home.html">Home</a>
-            <a href="medical.html">At Home Treatment</a>
-            <a href="contact.html">Connections</a>
+            <a href="medical.html">Treatment</a>
+            <a href="contact.html">Connections</a> 
             <a href="about us.html">About</a>
             <a class="active" href="login.html">Login</a>
             <a href="sign-up.html">Sign Up</a>
@@ -69,8 +78,11 @@
                 <br>
                 <label for = "pass">Password</label>
                 <input type="text" name="pass" placeholder="password" required>
-                <button>Log In</button> 
-            </form>
+             </form>
+    
+    
+             <button>Log In</button>
+    
         </div>
     
     </body>
