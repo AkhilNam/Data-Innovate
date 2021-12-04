@@ -98,10 +98,6 @@ li a:hover {
   background-color: #30C5FF;
 }
 
-li a.active {
-  background-color: #30C5FF;
-}
-
 /* STYLE BUTTONS */
 .genFact {
   background: #A0DDE6;
@@ -162,13 +158,3 @@ li a.active {
   border-color: white;
 }
 /* ADD MORE! */
-
-/*Login Page*/
-
-.internal{
-    
-    
-  text-align: center
-
-}
-

@@ -17,11 +17,10 @@ function generateScript() {
 
 
 var factList = [
-  "People of all age groups, regions and countries are affected by NCDs.",
-  "Noncommunicable diseases (NCDs) kill 41 million people each year, equivalent to 71% of all deaths globally",
-  "77% of all NCD deaths are in low- and middle-income countries",
-  "Cardiovascular diseases account for most NCD deaths",
-  "Lack of physical activity makes a person more prone to die to a NCD"
+  "health fact #3",
+  "health fact #4",
+  "health fact #5",
+  "health fact #6"
 ];
 
 var fact = document.getElementById("fact");
