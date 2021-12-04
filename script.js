@@ -17,10 +17,10 @@ function generateScript() {
 
 
 var factList = [
-  "health fact #3",
-  "health fact #4",
-  "health fact #5",
-  "health fact #6"
+  "People of all age groups, regions and countries are affected by NCDs.",
+  "77% of all NCD deaths are in low- and middle-income countries",
+  "Cardiovascular diseases account for most NCD deaths",
+  "Lack of physical activity makes a person more prone to die to a NCD"
 ];
 
 var fact = document.getElementById("fact");
